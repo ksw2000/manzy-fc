@@ -1,0 +1,25 @@
+.event-wrapper {
+    border-width: 0px 0px 1px;
+    border-style: solid;
+    padding: 10px 0px;
+}
+
+.event-wrapper h3{
+    color: var(--dark-prussian-blue);
+} 
+
+.event-wrapper h3, .event-wrapper p{
+    margin: 5px 0px;
+}
+
+.event-wrapper ul{
+    margin: 5px 0px;
+}
+
+.event-wrapper img{
+    width: 100%;
+}
+
+.event-wrapper:last-child{
+    border: 0px;
+}

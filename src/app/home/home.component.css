@@ -1,0 +1,62 @@
+.profile {
+    border-radius: 50%;
+    display: block;
+    height: 200px;
+    margin: 0px auto 20px;
+    width: 200px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 8px 8px;
+    background: linear-gradient(#f5f5f5, #f5f5f5) padding-box,
+        linear-gradient(to right, var(--teal), #9932cc) border-box;
+    border-radius: 12px;
+    border: 2px solid transparent;
+    display: flex;
+    color: #9932cc;
+}
+
+.button svg {
+    width: 18px;
+    height: 18px;
+    fill: var(--teal);
+    margin-right: 5px;
+}
+
+.button:hover {
+    color: #fff;
+    background: linear-gradient(to right, var(--teal), #b856e9) border-box;
+    transition: background 750ms cubic-bezier(0, 0.55, 0.45, 1), color 750ms cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+.button:hover svg{
+    fill: #fff;
+    transition: fill 750ms cubic-bezier(0, 0.55, 0.45, 1);
+}
+
+@media screen and (width < 1200px) and (width >= 500px) {
+    .button-group{
+        flex-direction: column;
+    }
+
+    .button{
+        margin: 5px 0px;
+        justify-content: center;
+    }
+}
+
+@media screen and (width < 500px) {
+    .button-group{
+        flex-direction: column;
+    }
+
+    .button{
+        margin: 5px 0px;
+        justify-content: center;
+    }
+}

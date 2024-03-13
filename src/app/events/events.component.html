@@ -1,0 +1,14 @@
+<h2>活動記錄</h2>
+
+<div class="event-wrapper" *ngFor="let e of data">
+    <h3>{{ e.title }}</h3>
+    <p>日期：{{ e.year }}/{{ e.month }}/{{ e.day }}</p>
+    <p>地點：{{ e.place }}</p>
+    <div *ngFor="let f of e.images">
+        <img src="{{ f }}">
+    </div>
+    <p *ngIf="e.links.length > 0">相關連結：</p>
+    <ul *ngFor="let g of e.links">
+        <li><a href="{{ g.href }}">{{ g.text }}</a></li>
+    </ul>
+</div>
