@@ -9,6 +9,6 @@
     </div>
     <p *ngIf="e.links.length > 0">相關連結：</p>
     <ul *ngFor="let g of e.links">
-        <li><a href="{{ g.href }}">{{ g.text }}</a></li>
+        <li><a href="{{ g.href }}" target="_blank">{{ g.text }}</a></li>
     </ul>
 </div>
