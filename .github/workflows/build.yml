@@ -16,7 +16,7 @@ jobs:
       - name: build
         run: |
           npm ci
-          npx npm i angular-cli-ghpages
+          npx ng add angular-cli-ghpages
           npx ng deploy --base-href=/${{ github.event.repository.name }}/
       - name: commit and push
         run: |
