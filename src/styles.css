@@ -80,5 +80,5 @@ blockquote:hover {
 
 @font-face {
   font-family: autography;
-  src: url("/assets/Autography.otf") format("opentype"),
+  src: url("assets/Autography.otf") format("opentype"),
 }
