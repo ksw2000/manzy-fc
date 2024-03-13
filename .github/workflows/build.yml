@@ -16,15 +16,15 @@ jobs:
       - name: build
         run: |
           npm ci
-          npx ng add angular-cli-ghpages
-          npx ng deploy --base-href=/${{ github.event.repository.name }}/ --skip-confirmation
+          npx ng add angular-cli-ghpages --skip-confirmation
+          npx ng deploy --base-href=/"${{ github.event.repository.name }}/"
       - name: commit and push
         run: |
           cd dist/manzy.io/browser
           git init
           git config user.name  "build-ci"
           git config user.email "build-ci@github.com"
-          git remote add secure-origin https://${{ secrets.general_ci }}@github.com/ksw2000/${{ github.event.repository.name }}
+          git remote add secure-origin https://${{ secrets.GENERAL_CI }}@github.com/ksw2000/${{ github.event.repository.name }}
           git checkout -b gh-pages
           git add .
           git commit -m "gitpage by CI"
