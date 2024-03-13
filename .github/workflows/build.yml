@@ -17,7 +17,7 @@ jobs:
         run: |
           npm ci
           npx ng add angular-cli-ghpages
-          npx ng deploy --base-href=/${{ github.event.repository.name }}/
+          npx ng deploy --base-href=/${{ github.event.repository.name }}/ --skip-confirmation
       - name: commit and push
         run: |
           cd dist/manzy.io/browser
