@@ -12,7 +12,7 @@
 }
 
 .button {
-    padding: 8px 8px;
+    padding: 8px 15px;
     background: linear-gradient(#f5f5f5, #f5f5f5) padding-box,
         linear-gradient(to right, var(--teal), #9932cc) border-box;
     border-radius: 12px;
@@ -39,12 +39,13 @@
     transition: fill 750ms cubic-bezier(0, 0.55, 0.45, 1);
 }
 
-@media screen and (width < 1200px) and (width >= 500px) {
+@media screen and (width < 1250px) and (width >= 500px) {
     .button-group{
         flex-direction: column;
     }
 
     .button{
+        padding: 8px 8px;
         margin: 5px 0px;
         justify-content: center;
     }
