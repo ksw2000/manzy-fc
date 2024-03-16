@@ -14,10 +14,6 @@
     padding: 25px 50px;
 }
 
-.container {
-    animation: fadeIn 500ms ease-in;
-}
-
 nav {
     position: absolute;
     right: -180px;
