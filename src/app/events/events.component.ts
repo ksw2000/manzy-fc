@@ -73,7 +73,7 @@ export class EventsComponent {
         month: 4,
         day: 29,
         place: "國立臺灣大學綜合體育館",
-        images: [],
+        images: ["assets/events/20230429.jpg"],
         links: [{
           href: "https://www.facebook.com/permalink.php?story_fbid=pfbid02sjfEEyZvJhMhZQgjhQDj6BbC45XUmimwA3hMscZSZ7qCdTJKi7TgwzYA3yP9mUuNl&id=100064235731491",
           text: "Facebook活動情報"
@@ -84,7 +84,7 @@ export class EventsComponent {
         month: 2,
         day: 4,
         place: "台北花博爭艷館",
-        images: ["assets/events/20230204.jpg"],
+        images: ["assets/events/20230204-1.jpg", "assets/events/20230204-2.jpg"],
         links: [{
           href: "https://www.facebook.com/photo/?fbid=564932942324559&set=a.414922283992293",
           text: "Facebook活動情報"
@@ -95,7 +95,7 @@ export class EventsComponent {
         month: 1,
         day: 29,
         place: "國立臺灣大學綜合體育館",
-        images: [],
+        images: ["assets/events/20230129.jpg"],
         links: [{
           href: "https://www.facebook.com/photo/?fbid=555167986634388&set=a.414922283992293",
           text: "Facebook活動情報"
@@ -106,7 +106,7 @@ export class EventsComponent {
         month: 10,
         day: 15,
         place: "台北花博爭艷館",
-        images: [],
+        images: ["assets/events/20221015-1.jpg", "assets/events/20221015-2.jpg"],
         links: [{
           href: "https://www.facebook.com/watch/?v=821535802598772&ref=sharing",
           text: "Facebook活動情報(倒數1天)"
@@ -137,7 +137,7 @@ export class EventsComponent {
         month: 2,
         day: 12,
         place: "台北花博爭艷館",
-        images : ["assets/events/20220212-1.jpg", "assets/events/20220212-2.jpg"],
+        images: ["assets/events/20220212-1.jpg", "assets/events/20220212-2.jpg"],
         links: [{
           href: "https://www.facebook.com/permalink.php?story_fbid=pfbid0Y5HiTwXRhkd5j8hXbpPdWuabsfjU51TCfYgoGDiKDyPGq6MHQypFv2VBUJCosFoGl&id=111190647450339",
           text: "FF38心得文"
