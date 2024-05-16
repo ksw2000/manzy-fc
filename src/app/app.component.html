@@ -13,9 +13,7 @@
       </li>
     </ul>
   </nav>
-  <div class="main-container">
-    <div class="container">
-      <router-outlet />
-    </div>
+  <div class="main-container" [@routeAnimations]="getRouteAnimationData()">
+    <router-outlet/>
   </div>
 </div>
