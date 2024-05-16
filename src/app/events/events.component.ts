@@ -1,6 +1,5 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-// import * as events from '../../assets/events.json';
 
 @Component({
   selector: 'app-events',
